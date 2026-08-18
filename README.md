@@ -6,7 +6,7 @@
 
 FxTools 是一款**双特权级**安全分析软件：用户态 `Fxtools.exe`（Win32 原生界面）负责交互与数据展示，内核驱动 `FxtoolsDriver.sys`（WDM）负责内核态扫描，两者通过 `common/common.h` 定义的 IOCTL 协议通信。它能够扫描 SSDT/IDT/Inline/IRP 钩子、检测隐藏进程与隐藏模块、分析系统日志与活动痕迹，并集成 YARA 规则扫描、Beacon 行为探测与漏洞驱动（LOLDrivers）检测，覆盖应急响应的"查、验、取、析"全流程。
 
-![项目架构图](docs/images/architecture.png)
+![f79bb82c67e9773cea32e3fac93fb094](./README.assets/f79bb82c67e9773cea32e3fac93fb094.png)
 
 ---
 
