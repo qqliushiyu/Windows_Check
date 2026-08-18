@@ -234,10 +234,7 @@ FxTools
 │   └── FxtoolsDriver.vcxproj      #   VS 工程文件
 ├── yara/
 │   └── rules/                     # YARA 规则库（600+ 条规则，含 LOLDrivers 规则）
-├── Fxtools.sln                    # 解决方案
-├── DESIGN.md                      # UI/UX 设计规范
-├── PLATFORM_COMPATIBILITY.md      # 平台兼容性与降级规则
-└── CODEBUDDY.md                   # AI 协作项目导引
+└── Fxtools.sln                    # 解决方案
 ```
 
 ---
